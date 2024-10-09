@@ -4,8 +4,6 @@ class Vehicle {
     public $speed;
     public $mileage;
 
- public static $seats = 4;
-
     public function __construct($name, $speed, $mileage) {
         $this->name = $name;
         $this->speed = $speed;
